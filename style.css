@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter Tight", sans-serif;
+}
+
+header {
+  width: 505px;
+  background: #b86c2a;
+  color: white;
+  padding: 10px 0 10px 0;
+  border-radius: 25px 25px 0 0;
+  font-size: 3.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+#bingo {
+  width: 505px;
+  background: #d68d4b;
+  padding: 22px 32px 32px 32px;
+  border-radius: 0 0 25px 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  height: 80px;
+  width: 80px;
+  font-size: 2.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.25s ease-in-out;
+}
+
+.selected {
+  background: rgb(182, 19, 19);
+  color: white;
+  border-radius: 50%;
+}
